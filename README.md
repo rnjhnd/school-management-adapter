@@ -55,6 +55,14 @@ This project implements the **Adapter Design Pattern** with the following compon
                             │ + main()            │
                             └─────────────────────┘
 ```
+The following diagram illustrates:
+- The architecture of the School Management Adapter
+- Relationships between the core components:
+  - The `SchoolManagementApp` interface
+  - Legacy systems: `AttendanceSystem`, `GradingSystem`, `LibrarySystem`
+  - Adapter classes: `AttendanceSystemAdapter`, `GradingSystemAdapter`, `LibrarySystemAdapter`
+  - The main application class
+- How the Adapter design pattern is applied in this project
 
 ## 🚀 Features
 
@@ -273,4 +281,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Note**: This implementation demonstrates the Adapter design pattern, which is particularly useful when integrating legacy systems, third-party libraries, or systems with incompatible interfaces. The pattern allows you to work with existing code without modifying it, making it ideal for enterprise applications that need to integrate multiple systems.
+**Note**: This implementation demonstrates the Adapter design pattern, which is particularly useful when integrating legacy systems, third-party libraries, or systems with incompatible interfaces. The Adapter pattern allows you to work with existing code without modifying it, making it ideal for enterprise applications that need to integrate multiple systems.
